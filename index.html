@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <h1>Let's do some math</h1>
+   
+    <div class="container">
+
+        <div class="content">
+            <input type="text" id="operation" class="display" readonly="readonly">
+        </div>
+    
+        <div class="content">
+            <input type="submit" value="7" id="7" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="8" id="8" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="9" id="9" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="/" id="/" class="tasto" onclick="n(this.id)">       
+        </div>
+    
+        <div class="content">
+            <input type="submit" value="4" id="4" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="5" id="5" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="6" id="6" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="*" id="*" class="tasto" onclick="n(this.id)">       
+        </div>
+    
+        <div class="content">
+            <input type="submit" value="1" id="1" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="2" id="2" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="3" id="3" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="-" id="-" class="tasto" onclick="n(this.id)">       
+        </div>
+    
+        <div class="content">
+            <input type="submit" value="C" id="C" class="tasto" onclick="cancella()">
+            <input type="submit" value="0" id="0" class="tasto" onclick="n(this.id)">
+            <input type="submit" value="." id="." class="tasto" onclick="n(this.id)">
+            <input type="submit" value="+" id="+" class="tasto" onclick="n(this.id)">       
+        </div>
+    
+        <div>
+            <input type="submit" value="=" id="=" class="tasto-uguale" onclick="operation()">
+        </div>
+
+
+
+
+
+    </div>
+
+
+<script src="script.js"></script>
+
+
+
+
+
+</body>
+ 
+</html>

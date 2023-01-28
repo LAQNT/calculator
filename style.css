@@ -1,0 +1,79 @@
+
+
+body {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#ffffff, #beb6cb);
+}
+
+
+h1 {
+    margin-top: 150px;
+    font-family: 'VT323', monospace;
+    font-weight: 100;
+    text-shadow: 2px 2px 2px rgba(149, 255, 149, 0.94);
+    color: rgb(85, 85, 85);
+}
+
+.container {
+    background-color: rgb(70, 70, 70) ;
+    border: 15px solid  rgb(70,70,70);
+    box-shadow: 0px 0px 100px rgb(125, 82, 255);
+    width: fit-content;
+    border-radius: 15px;
+    margin: 70px auto;
+}
+
+.tasto {
+    background-color:rgb(185, 247, 203) ;
+    color: rgb(0, 160, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 243, 206);
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 2px;
+    box-shadow: 5px 1px 2px;
+}
+
+.tasto-uguale {
+    background-color: rgb(185, 247, 203);
+    color: rgb(0, 160, 0);;
+    height: 50px;
+    width: 225px;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 243, 206);
+    font-weight: 600;
+    margin-top: 4px;
+    box-shadow: 5px 1px 2px;
+    font-size: 1.2rem;
+
+
+}
+
+
+.tasto:hover, .tasto-uguale:hover {
+    color: blueviolet;
+    background-color: rgba(149, 255, 149, 0.94) ;
+}
+
+
+
+.display {
+    width: 204px; 
+    height: 50px;
+    margin: 4px;
+    padding-left: 15px ;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    background-color: rgb(230, 230, 230);
+    border-radius: 3px;
+    box-shadow: inset 0 0 10px rgb(190, 190, 190);
+    font-family: 'VT323', monospace;
+    font-size: 36px;
+    color:rgb(35, 35, 35);
+
+}
